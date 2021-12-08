@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html dir="rtl">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello Bulma!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+
+    <body>
+        <div class="wrapper"></div>
+        <div class="container">
+            <section class="section is-large">
+                <div class="has-text-centered">
+                    <h1 class="title">Title <i data-feather="home"></i></h1>
+                    <form action="" method="post">
+                        <div class="field">
+                            <div class="control">
+                                <input type="text" class="input" placeholder="جستجوی محل اقامت">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button type="submit" class="button is-success">بریم سفر!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script>
+            feather.replace()
+        </script>
+    </body>
+
+</html>

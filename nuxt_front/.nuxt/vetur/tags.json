@@ -1,0 +1,14 @@
+{
+  "Message": {
+    "description": "Auto imported from components/Message.vue"
+  },
+  "RoomCard": {
+    "description": "Auto imported from components/RoomCard.vue"
+  },
+  "RoomCompareCard": {
+    "description": "Auto imported from components/RoomCompareCard.vue"
+  },
+  "SearchComponent": {
+    "description": "Auto imported from components/SearchComponent.vue"
+  }
+}
