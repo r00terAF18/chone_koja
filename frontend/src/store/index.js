@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createStore } from "vuex";
 
-
+// this is an awesome store
 export default createStore({
   state: {
     list_compare_rooms: [],
